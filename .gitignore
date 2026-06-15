@@ -1,0 +1,18 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# This package uses CSV for source and output data.
+*.xlsx
+
+# Local project work can contain client data.
+03-projects/*/
+!03-projects/README.md
+
+# Runtime logs and generated AD run logs
+*.log
+*-log.csv
+Create-ADOrganizationalUnits_*.csv
+testResults.xml
